@@ -1,0 +1,16 @@
+{
+  "name": "Blendle Check",
+  "description": "Check of een betaald Blendle-artikel ook gratis on the line staat",
+  "version": "0.1",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Check artikel"
+  },
+  "manifest_version": 2
+}
