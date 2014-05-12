@@ -1,2 +1,4 @@
-var htmlString = $(".item-title").html();
-alert(htmlString);
+var title = $( ".l-overlay .item-title" ).html();
+var provider = $( ".l-overlay .item-provider" ).html();
+
+alert(title + provider);
